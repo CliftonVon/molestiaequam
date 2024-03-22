@@ -1,0 +1,64 @@
+{
+  "name": "molestiaequam",
+  "version": "1.0.0",
+  "description": "Library and wrapper for many blockchains and wallets.",
+  "author": "AlessandraConroy",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./typings/index.d.ts",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^6.10.3",
+    "@polkadot/keyring": "^8.1.2",
+    "@polkadot/ui-keyring": "^0.87.5",
+    "@polkadot/util-crypto": "^8.1.2",
+    "axios": "^0.24.0",
+    "bip32": "^3.0.1",
+    "bip39": "^3.0.4",
+    "bitcoinjs-lib": "^6.0.1",
+    "cardano-wallet-js": "^1.2.3",
+    "ethers": "^5.5.2",
+    "nanocurrency-web": "^1.3.5",
+    "tiny-secp256k1": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.3",
+    "prettier": "^2.5.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.5.2"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CliftonVon/molestiaequam.git"
+  },
+  "keywords": [
+    "balance",
+    "cryptocurrency",
+    "wallet",
+    "sint",
+    "voluptate",
+    "ltc",
+    "debitis",
+    "bitcoin",
+    "ethereum",
+    "saepe",
+    "nano"
+  ]
+}
